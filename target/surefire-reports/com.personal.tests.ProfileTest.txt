@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.personal.tests.ProfileTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.29 s -- in com.personal.tests.ProfileTest

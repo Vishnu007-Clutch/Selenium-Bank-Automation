@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QA Playground Bank Automation Test Suite" verbose="2">
+    <listeners>
+        <listener class-name="com.personal.utilities.TestListener"/>
+    </listeners>
+    <test name="QA Playground Bank Functional Tests">
+        <classes>
+            <class name="com.personal.tests.LoginTest"/>
+            <class name="com.personal.tests.DashboardTest"/>
+            <class name="com.personal.tests.AccountsTest"/>
+            <class name="com.personal.tests.TransferTest"/>
+            <class name="com.personal.tests.SendMoneyTest"/>
+            <class name="com.personal.tests.PayUtilitiesTest"/>
+            <class name="com.personal.tests.ApplyLoanTest"/>
+            <class name="com.personal.tests.TransactionsTest"/>
+            <class name="com.personal.tests.NotificationsTest"/>
+            <class name="com.personal.tests.ProfileTest"/>
+            <class name="com.personal.tests.ForgotPasswordTest"/>
+        </classes>
+    </test>
+</suite>

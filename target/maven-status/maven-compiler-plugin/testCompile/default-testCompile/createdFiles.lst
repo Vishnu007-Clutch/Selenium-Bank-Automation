@@ -1,0 +1,13 @@
+com\personal\tests\TransferTest.class
+com\personal\tests\LoginTest.class
+com\personal\tests\PayUtilitiesTest.class
+com\personal\tests\AccountsTest.class
+com\personal\tests\AdminTest.class
+com\personal\tests\ForgotPasswordTest.class
+com\personal\tests\DashboardTest.class
+com\personal\tests\TransactionsTest.class
+com\personal\tests\ProfileTest.class
+com\personal\tests\UserPersonasTest.class
+com\personal\tests\SendMoneyTest.class
+com\personal\tests\ApplyLoanTest.class
+com\personal\tests\NotificationsTest.class

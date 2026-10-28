@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-12T14:31:50 IST" name="Surefire suite" finished-at="2026-10-12T14:33:09 IST" duration-ms="78738">
+    <groups>
+    </groups>
+    <test started-at="2026-10-12T14:31:50 IST" name="Surefire test" finished-at="2026-10-12T14:33:09 IST" duration-ms="78738">
+      <class name="com.personal.tests.AdminTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:31:50 IST" name="setUp" finished-at="2026-10-12T14:31:52 IST" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminLoginAndDashboard()[pri:1, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:31:52 IST" name="testAdminLoginAndDashboard" description="Verify Admin login, greeting, sidebar info, and dashboard stats" finished-at="2026-10-12T14:31:54 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLoginAndDashboard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:31:54 IST" name="tearDown" finished-at="2026-10-12T14:31:54 IST" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAdminLoginAndDashboard status=SUCCESS method=AdminTest.testAdminLoginAndDashboard()[pri:1, instance:com.personal.tests.AdminTest@2145433b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:31:54 IST" name="setUp" finished-at="2026-10-12T14:31:55 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminAccounts()[pri:2, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:31:55 IST" name="testAdminAccounts" description="Verify Admin Accounts view and Add Account dialog" finished-at="2026-10-12T14:31:59 IST" duration-ms="3522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminAccounts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:31:59 IST" name="tearDown" finished-at="2026-10-12T14:31:59 IST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAdminAccounts status=SUCCESS method=AdminTest.testAdminAccounts()[pri:2, instance:com.personal.tests.AdminTest@2145433b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:31:59 IST" name="setUp" finished-at="2026-10-12T14:32:01 IST" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminLoanManagement()[pri:3, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:32:01 IST" name="testAdminLoanManagement" description="Verify Admin Loan Management: Loan table, Edit/Close actions, and application modal" finished-at="2026-10-12T14:32:08 IST" duration-ms="6501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLoanManagement -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:32:08 IST" name="tearDown" finished-at="2026-10-12T14:32:08 IST" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAdminLoanManagement status=SUCCESS method=AdminTest.testAdminLoanManagement()[pri:3, instance:com.personal.tests.AdminTest@2145433b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:32:08 IST" name="setUp" finished-at="2026-10-12T14:32:09 IST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminPaymentsAndTransfers()[pri:4, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:32:09 IST" name="testAdminPaymentsAndTransfers" description="Verify Admin Transfer, Send Money, and Bill Pay flows" finished-at="2026-10-12T14:32:26 IST" duration-ms="16547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminPaymentsAndTransfers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:32:26 IST" name="tearDown" finished-at="2026-10-12T14:32:26 IST" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAdminPaymentsAndTransfers status=SUCCESS method=AdminTest.testAdminPaymentsAndTransfers()[pri:4, instance:com.personal.tests.AdminTest@2145433b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:32:26 IST" name="setUp" finished-at="2026-10-12T14:32:27 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdminTransactionsProfileAndLogout()[pri:5, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:32:27 IST" name="testAdminTransactionsProfileAndLogout" description="Verify Admin Transactions, Notifications, Profile, and Logout" finished-at="2026-10-12T14:32:29 IST" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminTransactionsProfileAndLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.AdminTest@2145433b]" started-at="2026-10-12T14:32:29 IST" name="tearDown" finished-at="2026-10-12T14:32:29 IST" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAdminTransactionsProfileAndLogout status=SUCCESS method=AdminTest.testAdminTransactionsProfileAndLogout()[pri:5, instance:com.personal.tests.AdminTest@2145433b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.personal.tests.AdminTest -->
+      <class name="com.personal.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.LoginTest@21507a04]" started-at="2026-10-12T14:32:29 IST" name="setUp" finished-at="2026-10-12T14:32:30 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBankFlow()[pri:0, instance:com.personal.tests.LoginTest@21507a04]" started-at="2026-10-12T14:32:30 IST" name="testBankFlow" description="Verify entire bank flow from login to logout" finished-at="2026-10-12T14:32:53 IST" duration-ms="22928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBankFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.LoginTest@21507a04]" started-at="2026-10-12T14:32:53 IST" name="tearDown" finished-at="2026-10-12T14:32:53 IST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBankFlow status=SUCCESS method=LoginTest.testBankFlow()[pri:0, instance:com.personal.tests.LoginTest@21507a04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.personal.tests.LoginTest -->
+      <class name="com.personal.tests.UserPersonasTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:32:53 IST" name="setUp" finished-at="2026-10-12T14:32:54 IST" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLockedUser()[pri:1, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:32:54 IST" name="testLockedUser" description="Verify locked_user cannot log in and displays account suspension error" finished-at="2026-10-12T14:32:55 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:32:55 IST" name="tearDown" finished-at="2026-10-12T14:32:55 IST" duration-ms="104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLockedUser status=SUCCESS method=UserPersonasTest.testLockedUser()[pri:1, instance:com.personal.tests.UserPersonasTest@143640d5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:32:55 IST" name="setUp" finished-at="2026-10-12T14:32:57 IST" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFrozenUser()[pri:2, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:32:57 IST" name="testFrozenUser" description="Verify frozen_user can log in but money movements and transfers are disabled" finished-at="2026-10-12T14:32:59 IST" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrozenUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:32:59 IST" name="tearDown" finished-at="2026-10-12T14:32:59 IST" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFrozenUser status=SUCCESS method=UserPersonasTest.testFrozenUser()[pri:2, instance:com.personal.tests.UserPersonasTest@143640d5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:32:59 IST" name="setUp" finished-at="2026-10-12T14:33:00 IST" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOverdraftUser()[pri:3, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:33:00 IST" name="testOverdraftUser" description="Verify overdraft_user displays negative balance and Overdrawn badge" finished-at="2026-10-12T14:33:01 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOverdraftUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:33:01 IST" name="tearDown" finished-at="2026-10-12T14:33:01 IST" duration-ms="127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOverdraftUser status=SUCCESS method=UserPersonasTest.testOverdraftUser()[pri:3, instance:com.personal.tests.UserPersonasTest@143640d5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:33:01 IST" name="setUp" finished-at="2026-10-12T14:33:03 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSlowUser()[pri:4, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:33:03 IST" name="testSlowUser" description="Verify slow_user loads successfully with explicit wait handling latency" finished-at="2026-10-12T14:33:06 IST" duration-ms="3626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlowUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:33:06 IST" name="tearDown" finished-at="2026-10-12T14:33:06 IST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSlowUser status=SUCCESS method=UserPersonasTest.testSlowUser()[pri:4, instance:com.personal.tests.UserPersonasTest@143640d5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:33:06 IST" name="setUp" finished-at="2026-10-12T14:33:07 IST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorUser()[pri:5, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:33:07 IST" name="testErrorUser" description="Verify error_user exhibits loan total calculation mismatch bug" finished-at="2026-10-12T14:33:09 IST" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.personal.tests.UserPersonasTest@143640d5]" started-at="2026-10-12T14:33:09 IST" name="tearDown" finished-at="2026-10-12T14:33:09 IST" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorUser status=SUCCESS method=UserPersonasTest.testErrorUser()[pri:5, instance:com.personal.tests.UserPersonasTest@143640d5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.personal.tests.UserPersonasTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
